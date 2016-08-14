@@ -29,7 +29,7 @@ class TweetsController < ApplicationController
 
   private
   def tweet_params
-    params.permit(:image, :text)
+    params.permit(:text)
   end
 
   def id_params
